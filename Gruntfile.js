@@ -1,5 +1,5 @@
-var validation = require('./validation');
-var asyncTask = require("grunt-promise-q");
+var validation = require('./validation'); // our validation module
+var asyncTask = require("grunt-promise-q"); // making grunt promise friendly
 
 module.exports = function(grunt) {
 
@@ -12,6 +12,7 @@ module.exports = function(grunt) {
                     'same number of collections and keys with matching names   --> grunt task ').ok();
 
             },function(err){
+                // in case of any errors we stop the grunt process and display the error
                 grunt.fail.warn(err);
             });
     });
