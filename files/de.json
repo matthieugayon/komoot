@@ -1,0 +1,18 @@
+{
+    "views/tour/Tooltip": {
+        "label_after": "Nach",
+        "label_elevation": "Höhenmeter",
+        "label_waytype": "Wegtyp",
+        "label_surface": "Wegbeschaffenheit"
+    },
+    "views/tour/Values": {
+        "tooltip_duration": "Dauer bei %{speed}",
+        "tooltip_distance": "Distanz",
+        "tooltip_uphill": "Bergauf",
+        "tooltip_downhill": "Bergab"
+    },
+    "views/waypoint/HighlightButton": {
+        "tooltip_save": "Markier diesen Ort als Highlight",
+        "tooltip_saved": "Als Highlight markiert"
+    }
+}

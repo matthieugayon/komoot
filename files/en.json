@@ -1,0 +1,18 @@
+{
+    "views/tour/Tooltip": {
+        "label_after": "After",
+        "label_elevation": "Elevation",
+        "label_waytype": "Waytype",
+        "label_surface": "Surface"
+    },
+    "views/tour/Values": {
+        "tooltip_duration": "Duration at %{speed}",
+        "tooltip_distance": "Distance",
+        "tooltip_uphill": "Uphill",
+        "tooltip_downhill": "Downhill"
+    },
+    "views/waypoint/HighlightButton": {
+        "tooltip_save": "Highlight this place",
+        "tooltip_saved": "You highlighted this place"
+    }
+}
